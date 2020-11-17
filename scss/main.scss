@@ -1,7 +1,54 @@
-body {
-	background: aqua;
-	display: flex;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h2 {
-	color: red;
+p {
+	font-weight: 300;
+	color: #111;
+}
+.wrap {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../images/bg.jpg');
+	background-size: cover;
+}
+.wrap .content {
+	max-width: 900px;
+	text-align: center;
+}
+
+.wrap .content {
+	max-width: 900px;
+	text-align: center;
+}
+
+.wrap .content h2 {
+	color: skyblue;
+	font-size: 5rem;
+}
+.wrap .content p {
+	color: #fff;
+	font-size: 1rem;
+}
+.btn {
+	font-size: 1rem;
+	color: #fff;
+	background: #ff0157;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+.btn:hover {
+	letter-spacing: 6px;
 }
