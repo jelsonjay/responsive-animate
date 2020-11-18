@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body {
+	background: #fff;
+}
 p {
 	font-weight: 300;
 	color: #111;
@@ -51,4 +54,54 @@ p {
 }
 .btn:hover {
 	letter-spacing: 6px;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 40px 100px;
+	width: 100%;
+	z-index: 10000;
+	display: flex;
+	justify-content: space-between;
+	transition: 0.5s;
+}
+
+header.sticky {
+	background: #fff;
+	padding: 10px 100px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header .logo {
+	color: #fff;
+	font-weight: 800;
+	font-size: 3rem;
+	text-decoration: none;
+}
+
+header.sticky .logo {
+	color: skyblue;
+}
+
+header .logo span {
+	color: #ff0157;
+}
+header .nav {
+	position: relative;
+	display: flex;
+}
+header .nav li {
+	list-style: none;
+	margin-left: 30px;
+}
+header .nav li a {
+	text-decoration: none;
+	color: #fff;
+}
+header .nav li a:hover {
+	color: coral;
+}
+header.sticky .nav li a {
+	color: #141414;
 }
