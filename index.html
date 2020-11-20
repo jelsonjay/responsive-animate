@@ -9,14 +9,14 @@
 <body>
   <header>
     <a href="/" class="logo">iphone<span>.</span></a> 
-    <div class="menuToggle" onclick="toggleMenu()"></div>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
     <ul class="nav">
-    <li><a href="#wrap">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#iphone">Iphone</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#testimonials">Testimonials</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#wrap" onclick="toggleMenu();">Home</a></li>
+    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+    <li><a href="#iphone" onclick="toggleMenu()">Iphone</a></li>
+    <li><a href="#menu" onclick="toggleMenu()">Menu</a></li>
+    <li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
     </ul>
   </header>
   <!--start section hero-->
@@ -27,7 +27,7 @@
      Velit, in! Consequatur cupiditate illum quibusdam, ab 
      deleniti magni ea repudiandae soluta eos et labore rem, 
      maiores tempore asperiores temporibus commodi porro? </p>
-     <a href="/" class="btn">Our Menu</a>
+     <a href="#menu" class="btn">Our Menu</a>
   </div>
   </section>
 <!--end section hero-->
@@ -269,7 +269,7 @@
         <input type="text" placeholder="Type your email....">
     </div>
     <div class="inputBox">
-      <textarea type="text" placeholder="Subject"></textarea>
+      <textarea type="text" placeholder="Subject" rows="10" cols="48"></textarea>
       </div>
       <div class="inputBox">
         <input type="submit" value="submit"">

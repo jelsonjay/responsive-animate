@@ -420,13 +420,13 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: var(--mainBlue);
+    background: var(--mainWhite);
   }
   header .nav li {
     margin-left: 0;
   }
   header .nav li a {
-    color: var(--mainWhite);
+    color: var(--mainBlack);
     font-size: 1rem;
   }
   .menuToggle {
@@ -487,6 +487,25 @@ section {
   .testimonials .content .box {
     margin: 10px;
     padding: 20px;
+  }
+  .form {
+    padding: 35px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 568px) {
+  .wrap .content h2 {
+    font-size: 2.5rem;
+    color: var(--mainSkyblue);
+  }
+}
+
+@media (max-width: 468px) {
+  .wrap .content h2 {
+    font-size: 2rem;
+    color: var(--mainSkyblue);
   }
 }
 /*# sourceMappingURL=main.css.map */
