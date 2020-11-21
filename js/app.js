@@ -9,3 +9,11 @@ function toggleMenu(){
   menuToggle.classList.toggle('active')
   nav.classList.toggle('active')
 }
+const sr = scrolReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: true
+})
+
+sr.reveal('home-tilte')
