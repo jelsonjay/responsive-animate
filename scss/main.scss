@@ -42,7 +42,8 @@ p {
 
 .wrap .content h2 {
 	color: var(--mainWhite);
-	font-size: 5rem;
+	font-size: 5.5rem;
+	font-weight: 900;
 }
 .wrap .content p {
 	color: var(--mainWhite);
@@ -86,7 +87,7 @@ header.sticky {
 header .logo {
 	color: var(--mainWhite);
 	font-weight: 800;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-decoration: none;
 }
 
@@ -155,7 +156,7 @@ section {
 	object-fit: cover;
 }
 
-/*--------------menu------------*/
+/*--------------product------------*/
 .title {
 	width: 100%;
 	display: flex;
@@ -163,25 +164,25 @@ section {
 	align-items: center;
 	flex-direction: column;
 }
-.menu .content {
+.product .content {
 	display: flex;
 	justify-content: center;
 	flex-direction: row-reverse;
 	flex-wrap: wrap;
 	margin-top: 40px;
 }
-.menu .content .box {
+.product .content .box {
 	width: 440px;
 	margin: 20px;
 	border: 15px solid var(--mainWhite);
 	box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
 }
-.menu .content .box .imgBox {
+.product .content .box .imgBox {
 	position: relative;
 	width: 100%;
 	height: 300px;
 }
-.menu .content .box .imgBox img {
+.product .content .box .imgBox img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -189,10 +190,10 @@ section {
 	height: 100%;
 	object-fit: cover;
 }
-.menu .content .box .text {
+.product .content .box .text {
 	padding: 15px 0 5px;
 }
-.menu .content .box .text h3 {
+.product .content .box .text h3 {
 	font-weight: 400;
 	color: var(--mainBlack);
 	text-align: center;
@@ -288,22 +289,22 @@ img {
 }
 
 /*--------------testimonials------------*/
-.testimonials {
-	background: url('../images/photo-2.jpg');
+.clients {
+	background: url('../images/bg2.jpg');
 	background-size: cover;
 }
-.white .testimonials,
+.white .clients,
 .white p {
 	color: var(--mainWhite);
 }
-.testimonials .content {
+.clients .content {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	flex-direction: row;
 	margin-top: 40px;
 }
-.testimonials .content .box {
+.clients .content .box {
 	width: 340px;
 	margin: 20px;
 	padding: 40px;
@@ -314,7 +315,7 @@ img {
 	flex-direction: column;
 	border-radius: 5px;
 }
-.testimonials .content .box .imgBox {
+.clients .content .box .imgBox {
 	position: relative;
 	width: 80px;
 	height: 80px;
@@ -322,7 +323,7 @@ img {
 	border-radius: 50%;
 	overflow: hidden;
 }
-.testimonials .content .box .imgBox img {
+.clients .content .box .imgBox img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -330,15 +331,15 @@ img {
 	height: 100%;
 	object-fit: cover;
 }
-.testimonials .content .box .imgBox .text {
+.clients .content .box .imgBox .text {
 	text-align: center;
 }
-.testimonials .content .box .text p {
+.clients .content .box .text p {
 	color: var(--mainBlack);
 	font-style: italic;
 	font-size: 0.9rem;
 }
-.testimonials .content .box .text h3 {
+.clients .content .box .text h3 {
 	margin-top: 20px;
 	color: #666;
 	font-size: 1rem;
