@@ -1,2 +1,2 @@
 # responsive-animate
-complate responsive app using animate.css
+this is a responsive app using html5 css3, animate.css & js
